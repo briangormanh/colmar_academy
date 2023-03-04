@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    border: 1px solid red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+ul li a {
+    text-decoration: none;
+}
