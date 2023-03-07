@@ -1,14 +1,209 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     display: flex;
     justify-content: space-between;
-    /* width: 100%; */
-    border: 1px solid red;
+    align-items: center;
+    padding: 16px 24px;
+    height: 64px;
+    /* border: 1px solid red; */
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    /* border: 1px dashed blue; */
+    
+}
+
+/* logo */
+header img {
+    height: 2.5rem;
+}
+
+header p {
+    display: inline;
+    font-size: 2rem;
 }
 
 .bold {
     font-weight: bold;
 }
 
-ul li a {
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 18px;
+}
+
+a {
     text-decoration: none;
+}
+
+ul li a {
+    font-size: 1.25rem;
+    color: black;
+}
+
+.main-cta {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    width: 98%;
+    margin: auto;
+}
+
+.main-cta img {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.cta-right {
+    width: 30%;
+    padding-right: 24px;
+    /* border: 1px solid red; */
+}
+
+.cta-right h1 {
+    font-size: 2.5rem;
+}
+
+.cta-right h2 {
+    font-weight: normal;
+}
+
+button {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 32px;
+    width: 85%;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    text-decoration: none;
+    font-size: 1.15rem;
+}
+
+a:hover button {
+    background-color: white;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+.practice-section {
+    display: flex;
+    width: 98%;
+    margin: auto;
+}
+
+.practice-left {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.practice-left img {
+    width: 100%;
+}
+
+.practice-left h2 {
+    font-size: 2.15rem;
+}
+
+.practice-left p:nth-child(4) {
+    font-size: 0.8rem;
+}
+
+.practice-right {
+    width: 40%;
+    padding: 32px 24px;
+
+}
+
+.practice-right img {
+    width: 35%;
+    height: auto;
+    margin-right: 16px;
+}
+
+.practice-right-flex {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+
+#take-top-padding {
+    padding-top: 0;
+}
+
+.practice-right-right a {
+    color: cornflowerblue;
+}
+
+.practice-right-right h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.practice-right-right p {
+    margin-top: 3px;
+    font-style: italic;
+}
+
+#guest-gray-background {
+    background-color: lightgray;
+}
+
+.learning-section {
+    width: 98%;
+    margin: auto;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.learning-section h2 {
+    font-size: 2.15rem;
+    padding-top: 32px;
+    margin-bottom: 0;
+}
+
+.learning-flex-1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 32px 72px;
+    /* border: 1px solid red; */
+}
+
+.learning-flex-2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 32px 0;
+    /* border: 1px solid red; */
+}
+
+.learning-box {
+    width: 31%;
+    text-align: left;
+    background-color: white;
+}
+
+.learning-box img {
+    width: 100%;
+    height: auto;
+}
+
+.learning-box h3, p {
+    padding: 0 16px;
 }
